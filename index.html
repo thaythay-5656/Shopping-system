@@ -6,15 +6,40 @@
     <title>Document</title>
 </head>
 <style>
-    h1{
-        color: red;
+    *{
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+
+    nav h1{
+        display: flex;
+        color: white;
+        justify-content: center;
+    }
+
+    nav{
+        background-color: blue;
+    }
+
+    ul{
+        list-style: none;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        height: 50px;
+    }
+
+    li{
+        color: white;
+        font-weight: bold;
     }
 
 </style>
 <body>
-    <h1>Welcome to New Project_World</h1>
 
     <nav>
+        <h1>Welcome to New Project_World</h1>
         <ul>
             <li href="products.html">Product</li>
             <li href="sell.html">Sell</li>
